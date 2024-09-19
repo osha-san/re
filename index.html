@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>individual form</title>
+    <link rel="stylesheet " href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <div id="container">
+        <h1>&bull; Contact Us &bull;</h1>
+        <div class="underline">
+        </div>
+       
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"> </label>
+            <input type="text" placeholder="Name" name="name" id="name_input" required>
+          </div>
+
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="email" name="email" id="email_input" required>
+          </div>
+
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="0900 000 0000" name="telephone" id="telephone_input" required>
+          </div>
+
+          <!--
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Subject line</option>
+              <option>I'd like to start a project</option>
+              <option>I'd like to ask a question</option>
+              <option>I'd like to make a proposal</option>
+            </select>
+          </div>
+        -->
+        <div class="Gender">
+        <p>Gender</p>
+        <input type="radio" name="gender" id="gender"> 
+        <label for="gender">Male</label> <br>
+        <input type="radio" name="gender" id="gender"> 
+        <label for="gender">Female</label> <br>
+        <input type="radio" name="gender" id="gender"> 
+        <label for="gender">Prefer no to say</label> <br> 
+        </div>
+        
+
+
+
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Send Message" id="form_button" />
+          </div>
+
+        </form>
+    </div>
+</body>
+</html>
